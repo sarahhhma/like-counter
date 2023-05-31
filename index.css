@@ -1,0 +1,49 @@
+body {
+    background-image: url("bubblegum.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', 'Helvetica';
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 5px rgb(249, 20, 135);
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px hotpink;
+}
+#increment-btn {
+    background-color: rgb(109, 0, 139);
+}
+#save-btn {
+    background-color: rgb(20, 113, 124);
+}
+p {
+    font-size: 1.8em;
+}
